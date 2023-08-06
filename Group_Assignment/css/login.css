@@ -1,0 +1,65 @@
+/* The Modal (background) */
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #cfcfcf;
+}
+
+/* Modal Content/Box */
+.container-content {
+  background-color: yellow;
+  max-width: 70vh;
+  width: 90%;
+  border-radius: 4px;
+  box-shadow: 0 0 10px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding: 16px;
+}
+.inner-container {
+  padding-top: 70px;
+  margin: 16px;
+}
+
+input[type=text],
+input[type=password] {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #686464;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+/* Set a style for all buttons */
+button {
+  border: 2px solid black;
+  background-color: #a3e921;
+  border-radius: 4px;
+  width: 30%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

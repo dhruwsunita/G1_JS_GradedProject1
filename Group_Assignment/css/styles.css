@@ -1,0 +1,230 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+  width: 800px;
+  min-height: 400px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  margin: 5% 10% 5% 20%;
+}
+
+.main #navi-search {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px 200px 100px;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#navi-search button {
+  width: 100%;
+  padding: 8px;
+}
+
+#navi-search input {
+  width: 220px;
+  border: 2px solid black;
+  padding: 5px;
+  color: rgb(17, 16, 16);
+  font-style: italic;
+}
+
+.main .resume-page {
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0 40px 20px 60px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.resume-page #head {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(157, 253, 253);
+  padding: 10px;
+}
+
+#head {
+  text-align: center;
+  display: flex;
+
+}
+
+#head .details {
+  width: 70%;
+  margin-left: 22%;
+}
+
+#head #user {
+  width: 30%;
+  margin-top: 2%;
+  margin-right: 10%;
+  font-size: 70px;
+  float: right;
+}
+
+#head #name {
+  font-size: 22px;
+  margin-top: 20px;
+
+}
+
+#head #designation {
+  width: 100%;
+  font-size: 15px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.resume-page .aside-content {
+  top: 0;
+  margin-left: 10px;
+  margin: 10px;
+  position: relative;
+  width: 140px;
+  max-width: 140px;
+  max-height: 80%;
+  padding: 20px;
+  float: left;
+  overflow-y: auto;
+  background-color: rgb(240, 194, 231);
+  color: #0d0d0d;
+}
+
+.aside-content .title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(175, 169, 169);
+
+}
+
+.aside-content .info {
+  font-size: 12px;
+  text-align: right;
+}
+
+.aside-content a {
+  text-align: right;
+  margin-left: 45px;
+}
+
+.resume-content {
+  width: 75%;
+  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+}
+
+#work {
+  margin: 10px;
+  width: 100%;
+  text-align: justify;
+  line-height: 20px;
+  padding-right: 20px;
+
+}
+
+#project {
+  margin: 10px;
+  width: 100%;
+  text-align: justify;
+  line-height: 20px;
+  padding-right: 20px;
+}
+
+#education {
+  margin: 10px;
+  width: 100%;
+  text-align: justify;
+  line-height: 20px;
+  padding-right: 20px;
+}
+
+#education ul {
+  margin-left: 20px;
+}
+
+#internship {
+  margin: 10px;
+  width: 100%;
+  text-align: justify;
+  line-height: 20px;
+  padding-right: 20px;
+}
+
+#internship ul {
+  margin-left: 15px;
+}
+
+#achivements {
+  margin: 10px;
+  width: 100%;
+  text-align: justify;
+  line-height: 20px;
+  padding-right: 20px;
+}
+
+#achivements ul {
+  margin-left: 15px;
+}
+
+.heading {
+  text-align: left;
+  font-size: 19px;
+  margin-bottom: 7px;
+}
+
+.content {
+  font-size: 13px;
+}
+
+.no-results {
+  position: absolute;
+  top: 40px;
+  bottom: 50px;
+  left: 25%;
+  right: 20%;
+  margin: auto;
+  display: flex;
+  width: 50%;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  background-color: white;
+}
+
+.no-results .fa-frown {
+  margin-top: 20px;
+  font-size: 80px;
+  margin-left: 40px;
+}
+
+.no-results p {
+  font-size: 30px;
+  color: black;
+  margin-left: 30px;
+}
